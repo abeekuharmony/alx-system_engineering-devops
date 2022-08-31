@@ -4,3 +4,8 @@ ALX SE Shell basics Project
 2 cd/root script that changes the working directory to the user’s home directory.
 3 ls -l Display current directory contents in a long format.
 4 ls -la Display current directory contents, including hidden files (starting with .). Use the long format.
+5 ls -al Display current directory contents.
+
+Long format
+with user and group IDs displayed numerically
+And hidden files (starting with .
