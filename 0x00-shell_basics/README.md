@@ -27,4 +27,5 @@ You can assume that the directory /tmp/u will exist when we will run your script
 17 mkdir -p welcome/to/school Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
 You are only allowed to use two spaces (and lines) in your script, not more.
-
+18 ls -map|sort -d Write a command that lists all the files and directories of the current directory, separated by commas (,).
+19 
