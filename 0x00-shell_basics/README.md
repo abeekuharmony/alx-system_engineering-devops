@@ -28,4 +28,8 @@ You can assume that the directory /tmp/u will exist when we will run your script
 
 You are only allowed to use two spaces (and lines) in your script, not more.
 18 ls -map|sort -d Write a command that lists all the files and directories of the current directory, separated by commas (,).
-19 
+19 0 string SCHOOL School data
+!:mime School
+After you quit vim and go back to your terminal and type
+file -C -m school.mgc
+Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0. 
