@@ -70,14 +70,23 @@ The number will be stored in the environment variable NUM.
 
 Ans = printf "%0.2f\n" $NUM
 
-14
+14 Write a script that converts a number from base 10 to base 16.
+
+    The number in base 10 is stored in the environment variable DECIMAL
+    The script should display the number in base 16, followed by a new line
+
 Ans = printf "%x\n" $DECIMAL
 
-15
+15 Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 Ans = tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
-16
+16 Write a script that prints every other line from the input, starting with the first line.
 Ans = paste -d" " - - | cut -d " " -f 1
 
-17
+17 Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+
+    WATER is in base water
+    STIR is in base stir.
+    The result should be in base bestchol
+
 Ans = printf "%o\n" $((5#`echo $WATER | tr 'water' '01234'` + 5#`echo $STIR | tr 'stir.' '01234'`)) | tr '01234567' 'bestchol'
